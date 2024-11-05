@@ -22,7 +22,7 @@ public class FrasesDoDia extends AppCompatActivity {
 
     public void GerarFraseDia(View view){
         txtFrase = findViewById(R.id.txt_frase);
-        int indiceAleatorio = new Random().nextInt(5);
+        int indiceAleatorio = new Random().nextInt(10);
 
         String frases[] = {
                 "Ama e faze o que quiseres - Santo Agostinho",
